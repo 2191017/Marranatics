@@ -32,8 +32,9 @@ public class Executive extends Employee {
 * @return double Returns the sum of bonus and pay
 */
     public double pay(){
-        double payment = super.pay() + bonus;
+        double paym = super.pay() + bonus;
         bonus = 0;
-        return payment;
+        return paym;
     }
 }
+
