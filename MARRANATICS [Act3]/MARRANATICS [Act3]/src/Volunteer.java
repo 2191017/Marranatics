@@ -13,8 +13,8 @@ public class Volunteer extends StaffMember {
 * @param address Address of the volunteer
 * @param phone Phone number of the volunteer
 */
-    public Volunteer(String name,String address,String phone){
-        super(name,address,phone);
+    public Volunteer(String name,String address,String phone, String email){
+        super(name,address,phone, email);
     }
 
 /**
