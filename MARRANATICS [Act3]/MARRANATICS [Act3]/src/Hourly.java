@@ -8,7 +8,6 @@
 
 public class Hourly extends Employee {
     private int hoursWorked;
-
 /**
 * This method sets the hourly rate of an employee
 *
@@ -18,9 +17,9 @@ public class Hourly extends Employee {
 * @param ssn Security number of employee
 * @param rate Rate of work
 */
-    public Hourly(String name,String address,String phone,String ssn,double rate){
-        super(name,address,phone,ssn,rate);
-        hoursWorked=0;
+   public Hourly(String name,String address,String phone,String ssn,double rate)
+   {
+       super(name,address,phone,ssn,rate);hoursWorked=0;}
     }
 
 /**
@@ -36,10 +35,8 @@ public class Hourly extends Employee {
 * @return double Returns the product of payRate and hoursWorked
 */
     public double pay(){
-        double payment = payRate * hoursWorked;
-        return payment;
+        double payment=payRate*hoursWorked;return payment;
     }
-
 /**
 * This method returns the concatenated String ofthe current work hours
 * @return String Returns the result of the toString method
