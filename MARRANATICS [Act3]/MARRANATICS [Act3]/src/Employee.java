@@ -31,7 +31,7 @@ public class Employee extends StaffMember {
 */
     public String toString(){
         String result = super.toString();
-        result+="\nSocial Security Number: " + socialSecurityNumber;
+        result+="\nSocial Security Number of the Employee: " + socialSecurityNumber;
         return result;
     }
 
