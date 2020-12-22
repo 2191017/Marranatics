@@ -41,6 +41,6 @@ public class Employee extends StaffMember {
 * @return double Returns the payRate
 */
     public double pay(){
-        return payRate;
+        return payRateOfEmp;
     }
 }
