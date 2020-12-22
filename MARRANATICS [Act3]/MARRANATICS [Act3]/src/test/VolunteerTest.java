@@ -25,5 +25,6 @@ public class VolunteerTest {
 
         // Verify the results
         assertEquals(0.0, result, 0.0001);
+        assertEquals(0.5, result, 0.5);
     }
 }
